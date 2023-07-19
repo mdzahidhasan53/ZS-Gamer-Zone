@@ -203,6 +203,7 @@ html {
     line-height: 30px; /* 166.667% */
 }
 .online-games-card{
+    height: fit-content;
     display: flex;
     justify-content: space-around;
 }
@@ -401,7 +402,7 @@ html {
     font-weight: 500;
     line-height: normal;
 }
-.copiright{
+.copyright{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-family: Work Sans;
