@@ -10,6 +10,19 @@
         margin: 50px 0;
 
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: fit-content;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 2opx;
+    }
+    .banner-image img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -20,5 +33,18 @@
     .nav-content{
         margin-top: 30px;
     }
-    
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .banner-content{
+        width: 100%;
+        margin-top: 30px;
+        padding: 50px 170px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
 }
