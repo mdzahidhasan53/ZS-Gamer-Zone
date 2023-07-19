@@ -23,6 +23,34 @@
     .banner-image img{
         width: 100%;
     }
+    .online-games-card{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        gap: 50px;
+    }
+    .card{
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: o;
+        width: 100%;
+        height: auto;
+    }
+    .inner-card img{
+        width: 80%;
+    }
+    .inner-card{
+        width: 100%;
+    }
+    .play-section{
+        flex-direction: column;
+    }
+    .play-second-img{
+       position: static;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -47,4 +75,5 @@
     .banner-image img{
         width: 100%;
     }
+    
 }
